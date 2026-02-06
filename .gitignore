@@ -1,3 +1,4 @@
+HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -28,3 +29,15 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Archivos compilados de Java
+*.class
+
+# Archivos temporales
+*.swp
+
+# Archivos del IDE IntelliJ IDEA
+.idea/
+*.iml
+out/
+6e24a1159f44c16ae19bda86f31c42cf5fec78c6
