@@ -1,7 +1,16 @@
 public class Doctor {
+    private String nombre;
 
-    String nombre;
-    String especialidad;
-    String tipoUsuario;
+    public Doctor(String nombre) {
+        this.nombre = nombre;
+    }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }
